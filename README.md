@@ -1,4 +1,4 @@
-## Steam Status Stalker
+# Steam Status Stalker✨
 
 ### 📝 Automatically logs status changes to steam_user_log.txt.
 ### ⌚ Checks every minute.
