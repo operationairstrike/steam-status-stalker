@@ -39,7 +39,7 @@ def log_status(steam_id, log_file):
             current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             
             if current_status != last_status:
-                log_entry = f"{current_time}: User username_here is now {current_status}\n"
+                log_entry = f"{current_time} : User username_here is now {current_status}\n"
                 
                 with open(log_file, 'a') as f:
                     f.write(log_entry)
